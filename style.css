@@ -14,7 +14,6 @@ input {
 
 .navbar {
   background-color: #102c59;
-
   width: 100%;
   text-align: center;
 }
@@ -29,6 +28,7 @@ input {
 #navbar-descriptor {
   font-size: 30px;
 }
+
 #navbar-date {
   padding: 2px;
   font-size: 25px;
