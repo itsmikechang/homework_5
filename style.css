@@ -1,0 +1,127 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: .8em;
+  padding-top: 90px;
+  vertical-align: middle;
+  background-color: #102c59;
+}
+
+input {
+  background: transparent;
+  border: none;
+  padding-left: 3px;
+}
+
+.navbar {
+  background-color: #102c59;
+
+  width: 100%;
+  text-align: center;
+}
+
+#navbar-title {
+  margin-top: 25px;
+  padding: 0px;
+  font-size: 80px;
+  color: White
+}
+
+#navbar-descriptor {
+  font-size: 30px;
+}
+#navbar-date {
+  padding: 2px;
+  font-size: 25px;
+  color: White;
+  margin-top: 20px;
+}
+
+.col-md-1, .col-md-2, .col-md-9 {
+  padding: 0;
+}
+
+.col-md-9 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#plannerContainer {
+  background-color: #102c59; 
+  margin-top: 140px;
+  margin-bottom: 80px;
+  padding: 40px;
+} 
+
+.plannerRow {
+  height: 70px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 1em;
+  line-height: 1.5;
+  border-radius: 80px;
+}
+
+.timeBox {
+  background-color: white;  
+  color: black;
+  height:100%;
+  width: 100%;
+  text-align: center;
+  line-height: 5.3;
+  border-radius: 15px 0px 0px 15px;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.dailyEntry {
+  color: black;  
+  font-size: 12pt;
+  height:100%;
+  width: 100%;
+}
+
+.saveIcon {
+  background-color: orange;
+  color: white;
+  border-radius: 0px 15px 15px 0px;
+  line-height: 3.5;
+  font-size: 1.5em;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-left: 2px;
+}
+
+.header-text {
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  color:white; 
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .plannerRow {
+    height: 120%;
+    border-radius: 10;
+    margin: 10px;
+  }
+
+  .saveIcon{ border-radius: 0 0 20px 20px; }
+  .timeBox { border-radius: 20px 20px 0 0; }
+}
+
+.wrapper { 
+  padding: 20px;     
+} 
+
+
+
+
+
+
+
